@@ -1,0 +1,23 @@
+<launch>
+
+  <arg name="use_map"/>
+  <arg name="base"/> 
+  
+  <!-- Run the map server with local map --> 
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find base_navigation)/maps/blank_map.yaml"/>
+
+  <!-- Run AMCL -->
+  <include file="(find base_navigation/launch/amcl_demo.launch" />
+
+  <group if="$(eval base =='create')">
+    <include file="$(find base_navigation)/launch/create_move_base.launch">
+      <arg name="use_map" value="$(arg use_map)"/>
+    </include>
+  </group>
+
+  <group if="$(eval base =='kobuki')">
+    <include file="$(find base_navigation)/launch/turtlebot_move_base.launch">
+      <arg name="use_map" value="$(arg use_map)"/>
+    </include>
+  </group>
+</launch> 

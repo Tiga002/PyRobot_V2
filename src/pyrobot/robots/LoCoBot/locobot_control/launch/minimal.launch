@@ -1,0 +1,33 @@
+<launch>
+    <arg name="use_camera" default="false"/>
+    <arg name="use_base" default="false"/>
+    <arg name="use_rviz" default="true"/>
+    <arg name="base" default="kobuki"/> <!-- options: create and kobuki -->
+
+    <param name="use_camera" value="$(arg use_camera)"/>
+    <param name="use_base" value="$(arg use_base)"/>
+
+
+<!-- realsense rgb-d camera -->
+        <group if="$(arg use_camera)">
+            <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+                <arg name="align_depth" value="true"/>
+            </include>
+        </group>
+
+<!-- base controller -->
+        <group if="$(arg use_base)" >
+
+            <include file="$(find base_navigation)/launch/main_base.launch">
+                <arg name="base" value="$(arg base)"/>
+            </include>
+
+        </group>
+
+    <group if="$(eval base =='kobuki')">
+        <include file="$(find locobot_moveit_config)/launch/demo.launch">
+            <arg name="use_rviz" value="$(arg use_rviz)"/>
+        </include>
+    </group>
+
+</launch>

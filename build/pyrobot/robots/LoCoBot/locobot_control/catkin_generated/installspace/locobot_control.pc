@@ -1,0 +1,8 @@
+prefix=/home/developer/low_cost_ws/install
+
+Name: locobot_control
+Description: Description of locobot_control
+Version: 0.0.1
+Cflags: -I/home/developer/low_cost_ws/install/include
+Libs: -L/home/developer/low_cost_ws/install/lib 
+Requires: roscpp sensor_msgs geometry_msgs dynamixel_workbench_msgs dynamixel_workbench_toolbox actionlib actionlib_msgs

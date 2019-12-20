@@ -1,0 +1,8 @@
+prefix=/home/developer/low_cost_ws/install
+
+Name: locobot_calibration
+Description: Description of locobot_calibration
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/developer/low_cost_ws/install/lib 
+Requires: 

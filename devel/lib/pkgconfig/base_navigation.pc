@@ -1,0 +1,8 @@
+prefix=/home/developer/low_cost_ws/devel
+
+Name: base_navigation
+Description: Description of base_navigation
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/developer/low_cost_ws/devel/lib 
+Requires: move_base

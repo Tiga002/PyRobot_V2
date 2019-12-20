@@ -1,0 +1,6 @@
+set(pyrobot_bridge_SETUP_PY_VERSION "0.0.0")
+set(pyrobot_bridge_SETUP_PY_SCRIPTS "")
+set(pyrobot_bridge_SETUP_PY_PACKAGES "python3_bridge")
+set(pyrobot_bridge_SETUP_PY_PACKAGE_DIRS "scripts/python3_bridge")
+set(pyrobot_bridge_SETUP_PY_MODULES "")
+set(pyrobot_bridge_SETUP_PY_MODULE_DIRS "")

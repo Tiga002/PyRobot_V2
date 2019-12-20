@@ -1,0 +1,8 @@
+prefix=/home/developer/low_cost_ws/devel
+
+Name: locobot_lite_moveit_config
+Description: Description of locobot_lite_moveit_config
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/developer/low_cost_ws/devel/lib 
+Requires: 

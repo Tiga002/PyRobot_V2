@@ -1,0 +1,17 @@
+<launch>
+
+    <include file="$(find locobot_gazebo)/launch/gazebo_locobot.launch">
+        <arg name="base" value="kobuki"/>
+    </include>
+
+    <include file="$(find locobot_gazebo)/launch/gazebo_locobot_control.launch"/>
+    <node name="locobot_gazebo" pkg="locobot_gazebo" type="locobot_gazebo" respawn="true" output="screen"/> 
+   
+<!-->	 									
+    <group if="$(arg teleop)">
+        <node name="robot_teleop_server" pkg="locobot_control" type="robot_teleop_server.py" output="screen"/>
+    </group>
+-->
+
+</launch>
+

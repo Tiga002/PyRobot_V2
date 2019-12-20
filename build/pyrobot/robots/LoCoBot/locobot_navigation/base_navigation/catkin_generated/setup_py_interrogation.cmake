@@ -1,0 +1,6 @@
+set(base_navigation_SETUP_PY_VERSION "0.0.0")
+set(base_navigation_SETUP_PY_SCRIPTS "")
+set(base_navigation_SETUP_PY_PACKAGES "base_navigation")
+set(base_navigation_SETUP_PY_PACKAGE_DIRS "scripts/base_navigation")
+set(base_navigation_SETUP_PY_MODULES "")
+set(base_navigation_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,15 @@
+(cl:defpackage pyrobot_bridge-srv
+  (:use )
+  (:export
+   "FKCOMMAND"
+   "<FKCOMMAND-REQUEST>"
+   "FKCOMMAND-REQUEST"
+   "<FKCOMMAND-RESPONSE>"
+   "FKCOMMAND-RESPONSE"
+   "IKCOMMAND"
+   "<IKCOMMAND-REQUEST>"
+   "IKCOMMAND-REQUEST"
+   "<IKCOMMAND-RESPONSE>"
+   "IKCOMMAND-RESPONSE"
+  ))
+

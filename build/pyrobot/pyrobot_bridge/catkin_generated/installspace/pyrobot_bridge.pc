@@ -1,0 +1,8 @@
+prefix=/home/developer/low_cost_ws/install
+
+Name: pyrobot_bridge
+Description: Description of pyrobot_bridge
+Version: 0.0.0
+Cflags: -I/home/developer/low_cost_ws/install/include
+Libs: -L/home/developer/low_cost_ws/install/lib 
+Requires: roscpp sensor_msgs geometry_msgs actionlib actionlib_msgs std_msgs

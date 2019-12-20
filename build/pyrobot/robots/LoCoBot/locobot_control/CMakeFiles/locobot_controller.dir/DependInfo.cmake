@@ -1,0 +1,36 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/developer/low_cost_ws/src/pyrobot/robots/LoCoBot/locobot_control/src/locobot_controller.cpp" "/home/developer/low_cost_ws/build/pyrobot/robots/LoCoBot/locobot_control/CMakeFiles/locobot_controller.dir/src/locobot_controller.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "HAVE_NEW_YAMLCPP"
+  "ROSCONSOLE_BACKEND_LOG4CXX"
+  "ROS_BUILD_SHARED_LIBS=1"
+  "ROS_PACKAGE_NAME=\"locobot_control\""
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/developer/low_cost_ws/devel/include"
+  "/home/developer/low_cost_ws/src/pyrobot/robots/LoCoBot/locobot_control/include"
+  "/home/developer/low_cost_ws/src/pyrobot/robots/LoCoBot/thirdparty/dynamixel-workbench/dynamixel_workbench_toolbox/include"
+  "/home/developer/low_cost_ws/src/pyrobot/robots/LoCoBot/thirdparty/DynamixelSDK/ros/include"
+  "/opt/ros/kinetic/include"
+  "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/developer/low_cost_ws/build/pyrobot/robots/LoCoBot/thirdparty/dynamixel-workbench/dynamixel_workbench_toolbox/CMakeFiles/dynamixel_workbench_toolbox.dir/DependInfo.cmake"
+  "/home/developer/low_cost_ws/build/pyrobot/robots/LoCoBot/thirdparty/DynamixelSDK/ros/CMakeFiles/dynamixel_sdk.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

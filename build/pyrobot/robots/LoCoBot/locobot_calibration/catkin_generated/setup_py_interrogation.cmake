@@ -1,0 +1,6 @@
+set(locobot_calibration_SETUP_PY_VERSION "0.0.1")
+set(locobot_calibration_SETUP_PY_SCRIPTS "")
+set(locobot_calibration_SETUP_PY_PACKAGES "locobot_calibration")
+set(locobot_calibration_SETUP_PY_PACKAGE_DIRS "scripts/locobot_calibration")
+set(locobot_calibration_SETUP_PY_MODULES "")
+set(locobot_calibration_SETUP_PY_MODULE_DIRS "")

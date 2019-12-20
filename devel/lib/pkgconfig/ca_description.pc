@@ -1,0 +1,8 @@
+prefix=/home/developer/low_cost_ws/devel
+
+Name: ca_description
+Description: Description of ca_description
+Version: 1.3.0
+Cflags: 
+Libs: -L/home/developer/low_cost_ws/devel/lib 
+Requires: 
